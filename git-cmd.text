@@ -1,5 +1,8 @@
 1.git init
 2.git status
+
 Create git version
-1.git add *(file name)
-2.git commit -m "msg"
+    1.git add *(file name)
+    2.git commit -m "msg"
+git remote
+    
