@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sethu Mohanan</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
     <link rel="stylesheet" href="assets/css/live-resume.css">
 </head>
+<!--------------------------------https://script.google.com/macros/s/AKfycbxMArZ8qQv1xkS5HyHKUX60pEuBf4reUfVHxFWc/exec-->
 
 <body>
     <header>
@@ -107,7 +109,7 @@
                     </div>
                 </div>
 
-                <form action="#!" class="contact-form">
+                <form id="submit-form" action="" class="contact-form">
                     <div class="form-group form-group-name">
                         <label for="name" class="sr-only">Name</label>
                         <input type="text" name="name" id="name" class="form-control" placeholder="NAME">
@@ -135,6 +137,25 @@
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="assets/vendors/entry/jq.entry.min.js"></script>
     <script src="assets/js/live-resume.js"></script>
+    <script>
+        $("#submit-form").submit((e) => {
+            e.preventDefault()
+            $.ajax({
+                url: "https://script.google.com/macros/s/AKfycbw8Kwn-8Bhnq4pA54jNgbjwZXR1cBk1rnQaOhOX-En2MnMLcCg/exec",
+                data: $("#submit-form").serialize(),
+                method: "post",
+                success: function (response) {
+                    //alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error: function (err) {
+                    alert("Something Error")
+
+                }
+            })
+        })
+    </script>
 </body>
 
 </html>
