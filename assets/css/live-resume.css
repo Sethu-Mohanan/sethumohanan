@@ -142,7 +142,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0047aa;
+    color: #f0f1f3;
     text-decoration: underline; }
 
 a:not([href]) {
@@ -1833,9 +1833,9 @@ fieldset:disabled a.btn {
   pointer-events: none; }
 
 .btn-primary {
-  color: #080000;
+  color: #f8f8f9;
   background-color: #151f2a;
-  border-color: #000000; }
+  border-color:#000000; }
   .btn-primary:hover {
     color: #000000;
     background-color: #f1f1f1;
@@ -3844,10 +3844,10 @@ margin-left: 30px;
     box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5); }
 
 .badge-white {
-  color: #0e0f0f;
-  background-color: #192734; }
+  color: #36dcdc;
+  background-color: #15202b; }
   a.badge-white:hover, a.badge-white:focus {
-    color: #0e0f0f;
+    color: #f0f7fd;
     background-color: #e6e6e6; }
   a.badge-white:focus, a.badge-white.focus {
     outline: 0;
@@ -7512,6 +7512,7 @@ aside .widget {
     box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08); }
     aside .widget.card .widget-title {
       color: #ffc107; }
+    
 
 .btn-share {
   padding: 5px 25px;
@@ -7685,7 +7686,7 @@ main {
     font-size: 12px;
     font-weight: 500;
     line-height: 1;
-    color: #070408; }
+    color: #2a88ce; }
   main p {
     font-size: 13px;
     line-height: 1.538;
@@ -7748,7 +7749,7 @@ main {
         font-size: 10px;
         font-weight: 500;
         line-height: 1.6;
-        color: #000000;
+        color: #5ca3d8;
         margin-bottom: 3px; }
       main .time-line-item-content {
         font-size: 10px;
@@ -8035,9 +8036,9 @@ main {
     main .contact-form .form-control {
       border: 0;
       border-radius: 0;
-      background-color: #f3f3f3;
+      background-color: #1687a7;
       padding: 12px 14px;
-      color: #000000;
+      color: #ffffff;
       font-size: 8px;
       line-height: 1.5;
       min-height: 36px; }
@@ -8220,7 +8221,7 @@ main {
     margin: -14px 0 -12px -20px
 }
 button, select, optgroup {
-    margin: 0 0 0 184px;
+    margin: 0 0 184px;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -8231,4 +8232,4 @@ textarea,input{
     font-size: inherit;
     line-height: inherit;
 }
-}
+
