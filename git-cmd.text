@@ -7,3 +7,5 @@ Create git version
 git remote
     git push (remote name) master
 
+Git clone github link
+git push orgin master

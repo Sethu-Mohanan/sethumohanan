@@ -143,7 +143,7 @@ a {
   background-color: transparent; }
   a:hover {
     color: #f0f1f3;
-    text-decoration: underline; }
+    text-decoration: none; }
 
 a:not([href]) {
   color: inherit;
@@ -8204,6 +8204,7 @@ main {
 /*# sourceMappingURL=live-resume.css.map */
 .bg-light {
     background-color: #192734 !important;
+    width: 100%;
 }
 @media (min-width: 992px){
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -8238,7 +8239,13 @@ a#interest {
     color: #f3f3f3;
 }
 
-
+.body-flex {
+  min-height: 70vh;
+  /*background-color: rgba(86,61,124,.15);*/
+}
+.project-complete{
+  height: 30%;
+}
 
 
 
